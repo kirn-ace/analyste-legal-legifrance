@@ -1,0 +1,9 @@
+[project]
+name = "analyste-legal-legifrance"
+version = "0.1.0"
+description = "Agent analyste de donnees legales adosse au serveur MCP openlegi.fr (Legifrance)"
+requires-python = ">=3.12"
+dependencies = ["mistralai-agents==1.1.2"]
+
+[tool.mistralai.agents]
+entrypoint = "main:agent"
